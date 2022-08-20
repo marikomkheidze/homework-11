@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-MediumObl.eot');
+    src: url('../fonts/FuturaPT-MediumObl.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-MediumObl.woff2') format('woff2'),
+        url('../fonts/FuturaPT-MediumObl.woff') format('woff'),
+        url('../fonts/FuturaPT-MediumObl.ttf') format('truetype'),
+        url('../fonts/FuturaPT-MediumObl.svg#FuturaPT-MediumObl') format('svg');
+}

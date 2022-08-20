@@ -1,0 +1,58 @@
+@media (max-width: 1024px) {
+    .head {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10%;
+        align-items: center;
+    }
+
+    .nav-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .head {
+        align-items: flex-start;
+    }
+
+    .burger {
+        font-size: 50px;
+    }
+
+    .phone-call {
+        font-size: 30px;
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .header-icons:nth-child(2),
+    .header-icons:nth-child(3) {
+        display: block;
+
+    }
+
+    .header-icons:nth-child(2) {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .header-icons {
+        font-size: 40px;
+    }
+
+    .number {
+        display: none;
+    }
+}

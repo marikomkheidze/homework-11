@@ -1,0 +1,61 @@
+/* ---------------------ტექნიკური სტილები------------------ */
+.box {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.conteiner-block {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------header----------------------------------- */
+.header {
+    width: 100%;
+    padding-top: 46px;
+}
+
+
+.nav-block {
+    margin: 0 auto;
+    width: 77.2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation {
+    width: 44%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link,
+.number {
+    font-family: 'Futura PT';
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.header-icons {
+    font-size: 24px;
+    color: #5EB6E1;
+}
+
+.header-icons:nth-child(2),
+.header-icons:nth-child(3) {
+    display: none;
+}
+
+.burger {
+    display: none;
+    font-size: 24px;
+    color: #5EB6E1;
+}
