@@ -20,6 +20,20 @@
         display: flex;
 
     }
+
+    .subtitle-1 {
+        font-size: 40px;
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+
+    .sec-1 {
+        background: rgba(0, 0, 0, 0.6)url("../images/cover-bg.jpg");
+        background-blend-mode: darken;
+        background-position: right;
+        background-size: cover;
+
+    }
 }
 
 @media (max-width: 480px) {
@@ -28,24 +42,11 @@
     }
 
     .burger {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .phone-call {
-        font-size: 30px;
-        margin-top: 15px;
-        display: flex;
-    }
-
-    .header-icons:nth-child(2),
-    .header-icons:nth-child(3) {
-        display: block;
-
-    }
-
-    .header-icons:nth-child(2) {
-        margin-left: 10px;
-        margin-right: 10px;
+        display: none;
     }
 
     .header-icons {
@@ -54,5 +55,15 @@
 
     .number {
         display: none;
+    }
+
+    .title-1 {
+        font-size: 25px;
+    }
+
+    .subtitle-1 {
+        font-size: 35px;
+        margin-top: 5%;
+        margin-bottom: 20%;
     }
 }

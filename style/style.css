@@ -13,6 +13,7 @@
 .header {
     width: 100%;
     padding-top: 46px;
+    padding-bottom: 46px;
 }
 
 
@@ -49,13 +50,61 @@
     color: #5EB6E1;
 }
 
-.header-icons:nth-child(2),
-.header-icons:nth-child(3) {
-    display: none;
-}
 
 .burger {
     display: none;
-    font-size: 24px;
+    font-size: 40px;
     color: #5EB6E1;
+}
+
+/* --------------section1--------------------------------- */
+
+.titles {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+
+}
+
+.title-1 {
+    font-family: 'Futura PT';
+    font-size: 30px;
+    font-weight: 600;
+    color: #707070;
+}
+
+.subtitle-1 {
+    font-family: 'Futura PT';
+    font-size: 65px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 0.5%;
+    margin-bottom: 6.5%;
+}
+
+.button-1 {}
+
+.getstarted {
+    width: 100%;
+    font-family: 'Futura PT';
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #000;
+    background-color: #5EB6E1;
+    border-radius: 10px;
+    padding: 27px 74px;
+
+}
+
+.sec-1 {
+    background: url(../images/cover-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 10%;
+    padding-top: 13%;
+    padding-bottom: 20%;
 }
