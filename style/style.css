@@ -108,3 +108,150 @@
     padding-top: 13%;
     padding-bottom: 20%;
 }
+
+/* ------------------------------section2----------------------------- */
+.sec-2 {
+    margin-top: 107px;
+    margin-bottom: 100px;
+}
+
+.cards-1 {
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    min-height: 230px;
+    padding-top: 80px;
+}
+
+.headlines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card:nth-child(1) {
+    background: rgba(0, 0, 0, 0.6)url("../images/1.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+.card:nth-child(2) {
+    background: rgba(0, 0, 0, 0.6)url("../images/2.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+.card:nth-child(3) {
+    background: rgba(0, 0, 0, 0.6)url("../images/3.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-line {
+    font-family: 'Futura PT';
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+
+
+.card-line:nth-child(1) {
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.card-line:nth-child(2) {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.button1 {
+    padding: 10px 40px;
+    background-color: #FF6C2C;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+}
+
+.button2 {
+    padding: 10px 40px;
+    background-color: #945B9F;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF
+}
+
+.button3 {
+    padding: 10px 40px;
+    background-color: #5EB6E1;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF
+}
+
+.text-1 {
+    max-width: 670px;
+    font-family: 'Futura PT';
+    font-size: 30px;
+    font-weight: 400;
+    color: #9E9E9E;
+    line-height: 150%;
+}
+
+.title-2 {
+    max-width: 670px;
+    font-family: 'Futura PT';
+    font-size: 60px;
+    font-weight: 400;
+    color: #000;
+}
+.headline { 
+    font-family: 'Futura PT';
+    font-size: 15px;
+    font-weight: 400;
+    color: #FF6C2C;
+    
+}
+.subtitle-2 {
+    color: #FF6C2C;
+}
+
+
+/* -----hover------ */
+.getstarted:hover {
+    background-color: #1c465b;
+    transition-duration: 0.5s;
+}
+
+.button1:hover {
+    background-color: #9c4520;
+    transition-duration: 0.5s;
+
+}
+
+.button2:hover {
+    background-color: #68456f;
+    transition-duration: 0.5s;
+
+}
+
+.button3:hover {
+    background-color: #1c465b;
+    transition-duration: 0.5s;
+
+}

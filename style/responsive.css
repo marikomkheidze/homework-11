@@ -34,6 +34,19 @@
         background-size: cover;
 
     }
+
+    .cards-1 {
+        width: 90%;
+    }
+
+    .card {
+        flex: 90%;
+    }
+
+
+    .card:not(lastchild) {
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -66,4 +79,10 @@
         margin-top: 5%;
         margin-bottom: 20%;
     }
+
+    .cards-1 {
+        width: 90%;
+        ;
+    }
+
 }
