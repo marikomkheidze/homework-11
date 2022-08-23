@@ -92,6 +92,11 @@
         display: grid;
         grid-template-columns: auto auto;
     }
+
+    .team {
+        width: 100%;
+        gap: 5vw;
+    }
 }
 
 @media (max-width: 480px) {
@@ -159,4 +164,5 @@
         display: grid;
         grid-template-columns: auto;
     }
+
 }
