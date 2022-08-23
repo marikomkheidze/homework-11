@@ -81,6 +81,17 @@
     .about-us {
         width: 100%;
     }
+
+    .titles-3 {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .classes-grid {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -136,5 +147,16 @@
 
     .img-card-3 {
         width: 100%;
+    }
+
+    .titles-3 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .classes-grid {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
     }
 }
