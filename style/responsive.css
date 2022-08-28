@@ -94,8 +94,24 @@
     }
 
     .team {
+        flex-direction: column;
+    }
+
+    .member-card {
         width: 100%;
-        gap: 5vw;
+    }
+
+    .team-image1 {
+        width: 50vw;
+    }
+    .team-image2 {
+        width: 50vw;
+    }
+    .team-image3 {
+        width: 50vw;
+    }
+    .team-name {
+        font-size: 4vw;
     }
 }
 
@@ -164,5 +180,6 @@
         display: grid;
         grid-template-columns: auto;
     }
+
 
 }
