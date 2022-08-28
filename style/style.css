@@ -335,7 +335,6 @@
     font-family: 'Futura PT';
     font-size: 30px;
     font-weight: 400;
-
     text-transform: capitalize;
     margin-top: 3vw;
 }
@@ -344,7 +343,6 @@
     font-family: 'Futura PT';
     font-size: 60px;
     font-weight: 400;
-
     text-transform: capitalize;
 }
 
@@ -506,6 +504,91 @@
 
 
 /* -------------------------------section5------------------------ */
+.sec-5 {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #000;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-title {
+    font-family: 'Futura PT';
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.review-title::after {
+    display: flex;
+    content: ' \2501';
+    width: 128px;
+    font-size: 5px;
+    background-color: #5EB6E1;
+    color: #5EB6E1;
+    margin-top: 20px;
+    margin-bottom: 43px;
+    margin-left: 30%;
+}
+
+.review-text {
+    max-width: 804px;
+    font-family: 'Futura PT';
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.costumer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.client-name {
+    font-family: 'Futura PT';
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.client-id {
+    font-family: 'Futura PT';
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* display: flex;
+    content: ' \2501';
+    width: 128px;
+    font-size: 5px;
+    background-color: #5EB6E1;
+    color: #5EB6E1;
+    margin-top: 20px;
+    margin-bottom: 43px;
+    margin-left: 30%; */
 
 
 /* -----hover------ */
