@@ -484,7 +484,7 @@
 .btn-team {
     width: 100%;
     font-family: 'Futura PT';
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 400;
     text-transform: capitalize;
     color: #fff;
@@ -573,22 +573,105 @@
     text-align: center;
 }
 
+/* --------------------section6---------------------------- */
+.sec-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+}
+
+.title-6 {
+    font-family: 'Futura PT';
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
 
 
+.cards-6 {
+    width: 65vw;
+    display: flex;
+    gap: 1.4vw;
+}
 
+.card-6 {
+    min-width: 20vw;
+    min-height: 27vw;
+    background-color: #000;
+    padding: 1.5vw;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5vw;
+}
 
+.card-6 img {
+    width: 100%;
+}
 
-
-
-/* display: flex;
-    content: ' \2501';
-    width: 128px;
-    font-size: 5px;
-    background-color: #5EB6E1;
+.headline-6 {
+    margin-top: 2vw;
+    font-family: 'Raleway';
+    font-size: 1vw;
+    font-weight: 900;
     color: #5EB6E1;
-    margin-top: 20px;
-    margin-bottom: 43px;
-    margin-left: 30%; */
+}
+
+.text-6 {
+    margin-top: 2vw;
+    font-family: 'Raleway';
+    font-size: 0.7vw;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.icons-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+
+.world-name {
+    display: flex;
+}
+
+.timehere {
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-right: 20px;
+    text-transform: capitalize;
+
+}
+
+.namehere {
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+
+}
+
+.timehere::before {
+    content: ' \25F7';
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 900;
+    color: #5EB6E1;
+    margin-right: 5px;
+}
+
+.world {
+    font-size: 15px;
+    color: #5EB6E1
+}
+
 
 
 /* -----hover------ */
@@ -632,4 +715,11 @@
     transform: translateY(-5%);
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.7);
     transition: 0.5s ease-in-out;
+}
+
+.card-6:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.5s ease-in-out;
+
 }

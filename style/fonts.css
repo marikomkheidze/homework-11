@@ -7,3 +7,13 @@
         url('../fonts/FuturaPT-MediumObl.ttf') format('truetype'),
         url('../fonts/FuturaPT-MediumObl.svg#FuturaPT-MediumObl') format('svg');
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Thin.eot');
+    src: url('../fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Thin.woff2') format('woff2'),
+        url('../fonts/Raleway-Thin.woff') format('woff'),
+        url('../fonts/Raleway-Thin.ttf') format('truetype'),
+        url('../fonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
+}

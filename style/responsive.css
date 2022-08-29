@@ -104,14 +104,46 @@
     .team-image1 {
         width: 50vw;
     }
+
     .team-image2 {
         width: 50vw;
     }
+
     .team-image3 {
         width: 50vw;
     }
+
     .team-name {
         font-size: 4vw;
+    }
+
+    .btn-team {
+        font-size: 5vw;
+    }
+
+    .sec-5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cards-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 7vw;
+    }
+
+    .card-6 {
+        min-width: 50vw;
+        min-height: 52vw;
+    }
+
+    .headline-6 {
+        font-size: 2vw;
+    }
+
+    .text-6 {
+        font-size: 1.6vw;
     }
 }
 
@@ -180,6 +212,21 @@
         display: grid;
         grid-template-columns: auto;
     }
+
+    .card-6 {
+        min-width: 70vw;
+        min-height: 72vw;
+    }
+
+    .headline-6 {
+        font-size: 2vw;
+    }
+
+    .text-6 {
+        font-size: 1.6vw;
+    }
+
+
 
 
 }
