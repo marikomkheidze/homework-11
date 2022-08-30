@@ -675,7 +675,6 @@
 /* ------------------------------section7------------------------ */
 
 .sec-7 {
-    padding-bottom: 200px;
     background-color: #000;
 }
 
@@ -692,7 +691,7 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 auto;
     gap: 1.6vw;
 
@@ -717,13 +716,14 @@
     color: #5EB6E1;
     margin-top: 20px;
     margin-bottom: 43px;
-    margin-left: 30%;
+
 }
 
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.3vw;
 }
 
 .mail {
@@ -762,6 +762,42 @@
     color: #5EB6E1;
 }
 
+.subject,
+.email {
+    font-family: 'Futura PT';
+    font-size: 1vw;
+    text-transform: capitalize;
+    width: 29vw;
+    min-height: 2vw;
+    background-color: #000;
+    border: solid #186AA5;
+    color: #BBBBBB;
+
+}
+
+.text-form {
+    width: 29vw;
+    height: 10vw;
+    font-family: 'Futura PT';
+    font-size: 1vw;
+    text-transform: capitalize;
+    background-color: #000;
+    border: solid #186AA5;
+    color: #BBBBBB;
+    resize: none;
+}
+
+.submit {
+    font-family: 'Futura PT';
+    font-size: 1vw;
+    text-transform: capitalize;
+    width: 29vw;
+    min-height: 2.2vw;
+    background-color: #5EB6E1;
+    border: solid #186AA5;
+    color: #000;
+
+}
 
 
 /* -----hover------ */
@@ -811,5 +847,11 @@
     transform: translateY(-5%);
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.7);
     transition: 0.5s ease-in-out;
+
+}
+
+.submit:hover {
+    background-color: #1c465b;
+    transition-duration: 0.5s;
 
 }
