@@ -145,6 +145,24 @@
     .text-6 {
         font-size: 1.6vw;
     }
+
+    .form-picture {
+        flex-direction: column-reverse;
+        gap: 5vw;
+    }
+
+    .form-picture img {
+        width: 100%;
+    }
+
+    .subject,
+    .email,
+    .text-form,
+    .submit {
+        width: 70vw;
+        height: 4vw;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -224,6 +242,28 @@
 
     .text-6 {
         font-size: 1.6vw;
+    }
+
+    .sec-7 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .subject,
+    .email,
+    .text-form,
+    .submit {
+        width: 100vw;
+        min-height: 6vw;
+    }
+
+    .contact-headline {
+        font-size: 40px;
+    }
+
+    .mail-number {
+        font-size: 10px;
+
     }
 
 
