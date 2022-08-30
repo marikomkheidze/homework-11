@@ -799,6 +799,122 @@
 
 }
 
+.footer {
+    padding: 50px 0;
+}
+
+.footer-main {
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contacts {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.quick-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 250px;
+    gap: 0.5vw;
+}
+
+.popular-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-headline,
+.con-title {
+    margin-bottom: 15px;
+    font-family: 'Futura PT';
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.popular-tags {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3px;
+}
+
+.tag-link {
+    background-color: #000;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #BCBCBC;
+    border: solid 1px;
+    padding: 5px 13px
+}
+
+.map {
+    font-family: 'Futura PT';
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #BCBCBC;
+}
+
+.call,
+.mailto {
+    font-family: 'Futura PT';
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #BCBCBC;
+
+}
+
+.footer-link {
+    font-size: 30px;
+    color: #5EB6E1;
+
+}
+
+.footer-item {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    margin: 100px 0;
+    width: 100%;
+    background-color: #00A2FF;
+    padding: 1.5vw 0;
+}
+
+.footer-link-2 {
+    font-family: 'Futura PT';
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000;
+
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Futura PT';
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+
+
+}
 
 /* -----hover------ */
 .getstarted:hover {
@@ -853,5 +969,20 @@
 .submit:hover {
     background-color: #1c465b;
     transition-duration: 0.5s;
+
+}
+
+.tag-link:hover {
+    color: #FFFFFF;
+    background-color: #00A2FF;
+    transition-duration: 0.5s;
+
+
+}
+
+.tag-link:hover {
+    background-color: #00A2FF;
+    transition-duration: 0.5s;
+
 
 }
